@@ -1,6 +1,7 @@
 import { defaultTheme } from 'vuepress'
 
 export default {
+  base: '/doc/',
   theme: defaultTheme({
     // 默认主题配置
     navbar: [
@@ -46,7 +47,7 @@ export default {
     ],
     // Public 文件路径
     logo: '/images/hero.png',
-    lastUpdated: true,
-    lastUpdatedText: "测试"
+    lastUpdatedText: '最近更新时间',
+    contributorsText: '提交人'
   }),
 }
