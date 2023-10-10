@@ -1,0 +1,17 @@
+{
+  "name": "doc",
+  "version": "1.0.0",
+  "description": "个人学习笔记",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs --temp .temp",
+    "docs:build": "vuepress build docs"
+  },
+  "keywords": [],
+  "author": "lh <1178844902@qq.com>",
+  "license": "ISC",
+  "repository": "git@github.com:xiaohuowa/doc.git",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.67"
+  }
+}
