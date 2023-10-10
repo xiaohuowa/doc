@@ -23,7 +23,7 @@ jobs:
           # 选择要使用的 pnpm 版本
           version: 8
           # 使用 pnpm 安装依赖
-          run_install: true
+          # run_install: true
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
@@ -33,10 +33,9 @@ jobs:
           # 缓存 pnpm 依赖
           cache: pnpm
 
-      - name: install yarn
+      - name: install package
         run: 
-          npm install yarn -g
-          yarn init -y
+          pnpm i
 
       # 运行构建脚本
       - name: Build VuePress site
