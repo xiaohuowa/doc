@@ -7,7 +7,7 @@ module.exports = [
         children: [
             {
                 text: "Projects🎈",
-                children: ["/views/backend/Java", "/views/backend/Java基础"],
+                children: ["/views/backend/测试上传图片"],
             },
         ],
     },
